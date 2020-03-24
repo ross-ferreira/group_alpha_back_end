@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Image;
 use App\Http\Resources\API\ImageResource;
+use App\Http\Requests\API\ImageRequest;
 
 class Images extends Controller
 {
@@ -26,7 +26,7 @@ class Images extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ImageRequest $request)
     {
         $data = $request->all();
 
@@ -51,7 +51,7 @@ class Images extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Image $image)
+    public function update(ImageRequest $request, Image $image)
     {
         $data = $request->all();
 
