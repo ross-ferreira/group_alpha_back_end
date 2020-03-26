@@ -35,6 +35,7 @@ Will add an image - required fields below
 Will update the existing image
 
 ### Data format
+```javascript
 {
     "data": [
         {
@@ -48,3 +49,4 @@ Will update the existing image
         }
     ]
 }
+```
