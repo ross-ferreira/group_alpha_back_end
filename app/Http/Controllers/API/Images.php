@@ -19,7 +19,6 @@ class Images extends Controller
         return ImageResource::collection(Image::all());    
     }
 
-
     /**
      * Store a newly created resource in storage.
      *
