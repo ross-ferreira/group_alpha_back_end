@@ -7,14 +7,14 @@ then follow the steps below
 2.  run: vendor/bin/homestead make
 3.  run: mv .env.example .env
 4.  in the .env file update the following: DB_DATABASE=homestead, DB_USERNAME=root, DB_PASSWORD=secret
-5.  vagrant up
-6.  vagrant ssh
-7.  cd code
-8.  artisan key:generate
-9.  artisan migrate
-10. exit
-11. npm install
-12. npm run watch
+5.  run: vagrant up
+6.  run: vagrant ssh
+7.  run: cd code
+8.  run: artisan key:generate
+9.  run: artisan migrate
+10. run: exit
+11. run: npm install
+12. run: npm run watch
 
 ## API routes
 All future requests should use the root uri http://homestead.test/api/
