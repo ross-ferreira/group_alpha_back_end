@@ -17,7 +17,7 @@ then follow the steps below
 12. run: npm run watch
 
 ## API routes
-All future requests should use the root uri http://homestead.test/api/
+All future requests should use the root uri https://alpha.developme.space/api/
 
 ### GET /startgame
 Will return a list of all images
